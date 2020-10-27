@@ -24,7 +24,7 @@ def bad_autocliker():
 	if score.get() > 1000:
 		while True:
 			root.update()
-			root.after(1000)
+			root.after(100)
 			root.update()
 			score.set(score.get() + 1)
 #Labels
