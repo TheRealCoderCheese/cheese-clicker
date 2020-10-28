@@ -33,7 +33,7 @@ score_display = Label(root, text = "your score is below this line:").grid(row = 
 score_label = Label(root, textvariable = score).grid(row = 2, column = 3)
 #Buttons
 Cheese = Button(root, text = "tasty cheese", bg = "#ffa600", fg = "black", activebackground = "#ffa600", padx = 70 , pady= 65,command = update_score).grid(row = 3, column = 3)
-Buy_upgrade_1 = Button(root, text = "american cheese", bg = "#f3af41", fg = "black", activebackground = "#f3af41", padx = 70 , pady = 65,command = upgrade1).grid(row = 3, column = 4)
-blue_cheese = Button(root, text = "blue cheese" , bg = "blue", fg = "black", activebackground = "blue", padx = 70, pady = 65, command = upgrade).grid(row = 4, column = 3)
-autoclicker = Button(root, text = "autoclicker" , bg = "green" , fg = "black", activebackground = "green" , command = bad_autocliker, padx = 87 ,pady = 65).grid(row = 4, column = 4)
+Buy_upgrade_1 = Button(root, text = "american cheese(50)", bg = "#f3af41", fg = "black", activebackground = "#f3af41", padx = 70 , pady = 65,command = upgrade1).grid(row = 3, column = 4)
+blue_cheese = Button(root, text = "blue cheese(100)" , bg = "blue", fg = "black", activebackground = "blue", padx = 70, pady = 65, command = upgrade).grid(row = 4, column = 3)
+autoclicker = Button(root, text = "autoclicker(1000)" , bg = "green" , fg = "black", activebackground = "green" , command = bad_autocliker, padx = 87 ,pady = 65).grid(row = 4, column = 4)
 root.mainloop()
